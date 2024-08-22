@@ -2,8 +2,6 @@
 
 #include <shared_plugin_helpers/shared_plugin_helpers.h>
 
-using Param = juce::AudioParameterFloat;
-
 class MinimalAudioPlugin : public PluginHelpers::ProcessorBase
 {
 public:

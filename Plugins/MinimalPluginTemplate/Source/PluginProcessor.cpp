@@ -12,9 +12,9 @@ static Versions getVersion()
     return Versions::PLUGIN_TEST_VERSION;
 }
 
-inline Param* createParam(const juce::String& name, int version)
+inline juce::AudioParameterFloat* createParam(const juce::String& name, int version)
 {
-    return new Param({name, version}, name, 0.f, 5.f, 3.f);
+    return new juce::AudioParameterFloat({name, version}, name, 0.f, 5.f, 3.f);
 }
 
 MinimalAudioPlugin::MinimalAudioPlugin()
