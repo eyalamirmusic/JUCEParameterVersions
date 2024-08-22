@@ -35,6 +35,6 @@ function(createPluginVersion targetName version)
 
 endfunction()
 
-createPluginVersion(OriginalVersion 1)
-createPluginVersion(NewParamsOutOfOrder 2)
-createPluginVersion(NewParamsInOrder 3)
+createPluginVersion(OriginalVersion Original)
+createPluginVersion(NewParamsOutOfOrder OutOfOrder)
+createPluginVersion(NewParamsInOrder InOrder)
